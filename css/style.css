@@ -18,7 +18,56 @@
 /* QUE DICEN DE NOSOTROS */
 
 /* PREGUNTAS FRECUENTES */
+.contenido__preguntasf{
+    border: 1px black solid;
+    text-align:justify;
+    background-color: rgb(255, 255, 255);
+    width: 530px;
+    padding: 10px;
+}
+
+
+.titulo__preguntasf{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.preguntasf{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+details{
+    padding: 5px;
+}
+summary{
+    padding: 10px;
+}
+
 
 /* DESTACADOS */
 
+.destacados__titulo{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* SEGUINOS EN LAS REDES */
+footer{
+    margin: 0;
+    border: 1px black solid ;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer__redes{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;    
+    padding: 10px;
+
+}
