@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
+}
+
+:root{
+    --fontTitulo: Arial Sans-Serif;
+    --FontTexto:
+    
 }
 
 /* BODY */
@@ -29,7 +37,7 @@
 
 .titulo__preguntasf{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-Family);
     text-align: left;
 
 }
@@ -62,6 +70,7 @@ footer{
     margin: 0;
     border: 1px black solid ;
     background-color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .footer__redes{
@@ -69,5 +78,21 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;    
     padding: 10px;
+    
 
+}
+
+.footer__contacto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;    
+    padding: 10px;
+    
+
+}
+
+.contacto__datos{
+    display:inline-table;
+    padding: 10px;
+    vertical-align: middle;  
 }
