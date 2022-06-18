@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Asdonuts;
-    src: url(/fonts/Asdonuts.otf);
+    src: url(/fonts/Asdonuts.ttf);
 }
 
 /* ROOT */
@@ -28,20 +28,49 @@
     box-sizing: border-box;
 }
 
-/* BODY */
 
-/* HEADER */
-
-/* BARRA DE NAVEGACION */
-
-/* DESCUENTO */
-
-/* QUIENES SOMOS */
-
-/* QUE DICEN DE NOSOTROS */
-
-/* PREGUNTAS FRECUENTES */
-
-/* DESTACADOS */
-
-/* SEGUINOS EN LAS REDES */
+@media screen and (max-width: 480px) {
+    /* SEGUINOS EN LAS REDES */
+    footer {
+        margin: 0;
+        border: 1px black solid;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        width: auto;
+    }
+    
+    .footer__redes {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-size: 15px;
+        font-family: var(--main-Font);
+        color: var(--main-color);
+        position: relative;
+        padding: 10px;
+        
+    
+    }
+    
+    .footer__contacto{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        font-size: 15px;
+        font-family: var(--main-Font);
+        color: var(--main-color);
+        position: relative;    
+        padding: 10px;
+        width: auto;
+        
+    
+    }
+    
+    .contacto__datos{
+        padding: 10px;
+        vertical-align: middle;
+    }
+    
+    }
+    
