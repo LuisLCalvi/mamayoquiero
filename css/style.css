@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Asdonuts;
-    src: url(/fonts/Asdonuts.otf);
+    src: url(/fonts/Asdonuts.ttf);
 }
 
 /* ROOT */
@@ -28,20 +28,40 @@
     box-sizing: border-box;
 }
 
-/* BODY */
-
-/* HEADER */
-
-/* BARRA DE NAVEGACION */
-
-/* DESCUENTO */
-
-/* QUIENES SOMOS */
-
-/* QUE DICEN DE NOSOTROS */
-
 /* PREGUNTAS FRECUENTES */
 
-/* DESTACADOS */
 
-/* SEGUINOS EN LAS REDES */
+@media screen and (max-width: 480px) {
+    /* PREGUNTAS FRECUENTES */
+    .contenido__preguntasf {
+        border: 1px black solid;
+        text-align: justify;
+        background-color: var(--fourth-color);
+        width: auto;
+        padding: 10px;
+    }
+    
+    
+    .titulo__preguntasf {
+        font-size: 30px;
+        font-family: var(--main-Font);
+        text-align: left;
+    
+    }
+    
+    .preguntasf {
+        font-size: 20px;
+        font-family: var(--second-Font);
+        text-align: left;
+    
+    }
+    
+    details {
+        padding: 5px;
+    }
+    
+    summary {
+        padding: 10px;
+    }
+
+}
