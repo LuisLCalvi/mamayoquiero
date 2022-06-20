@@ -9,6 +9,46 @@
     src: url(/fonts/Asdonuts.ttf);
 }
 
+@font-face {
+    font-family: Lato-Black;
+    src: url(/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-BlackItalic;
+    src: url(/fonts/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-BoldItalic;
+    src: url(/fonts/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Italic;
+    src: url(/fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url(/fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
 /* ROOT */
 :root {
     --main-color: rgb(255, 37, 153);
@@ -28,27 +68,36 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(rgb(255, 138, 176), rgb(255, 255, 255));
+    height: 100%;
+}
+
 @media screen and (max-width: 480px) {
 
     /* DESTACADOS */
     
-    .destacados{
+    .destac{
         border: 1px  black solid ;
         align-items: center;
     }
     
-    .destacados__titulo {
+    .title--destac {
         text-align: center;
         font-size: 30px;
-        font-family: var(--main-Font)
+        font-family: var(--main-Font);
+        color: var(--main-color)
     }
-    .destacados__img{
+
+    .img--destac{
         display: flex;
         flex-direction: column;
         position: relative;
-        width: auto;
-        height: 300px;
+        width: 50%;
+        height: 70%;
         padding: 10px;
     
     }
+
+
 }
