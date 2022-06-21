@@ -9,6 +9,46 @@
     src: url(/fonts/Asdonuts.ttf);
 }
 
+@font-face {
+    font-family: Lato-Black;
+    src: url(/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-BlackItalic;
+    src: url(/fonts/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-BoldItalic;
+    src: url(/fonts/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Italic;
+    src: url(/fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url(/fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
 /* ROOT */
 :root {
     --main-color: rgb(255, 37, 153);
@@ -27,47 +67,60 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background: linear-gradient(rgb(255, 138, 176), rgb(255, 255, 255));
+    height: 100%;
+}
 
 @media screen and (max-width: 480px) {
     /* SEGUINOS EN LAS REDES */
     footer {
         margin: 0;
-        border: 1px black solid;
-        background-color: rgb(255, 255, 255);
         text-align: center;
         width: auto;
     }
-    
-    .footer__redes {
+
+    .footer--title{
         display: flex;
         flex-direction: column;
-        position: relative;
         font-size: 15px;
         font-family: var(--main-Font);
         color: var(--main-color);
+    }
+
+    .footer--subtitle{
+        font-family: Lato-Regular;
+    }
+    .footer--img{
+        width: 15%;
+        height: 5%;
+        margin-top: -20%;
+        margin-right: 80%;
+    }
+    .footer--img2{
+        width: 15%;
+        height: 5%;
+        margin-left: 80%;
+    }
+    .footer--redes {
+        display: flex;
+        justify-content: space-evenly;
         position: relative;
         padding: 10px;
         
     
     }
     
-    .footer__contacto{
+    .footer--contact{
         display: flex;
-        flex-direction: column;
         position: relative;
-        align-items: center;
-        font-size: 15px;
-        font-family: var(--main-Font);
-        color: var(--main-color);
-        position: relative;    
         padding: 10px;
         width: auto;
-        
+        justify-content: space-evenly;
     
     }
     
-    .contacto__datos{
+    .contacto--date{
         padding: 10px;
         vertical-align: middle;
     }
