@@ -29,8 +29,130 @@
 }
 
 /* BODY */
+body {
+    background: linear-gradient(168.15deg, rgba(255, 203, 223, 0) 19.35%, #FFCBDF 53.52%, rgba(255, 208, 226, 0.13) 81.76%);
+}
 
 /* HEADER */
+.header-main {
+    padding: 1.5rem;
+}
+
+.header-main-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.header-main-row1-nav-lines {
+    width: 3px;
+}
+
+.header-main-row1-nav-lines-nav-line {
+    width: 20px;
+    height: 2px;
+    background-color: var(--main-color);
+    margin: 5px 0;
+}
+
+.header-main-row2 {
+    display: flex;
+}
+
+.header-main-row2-congrats {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--main-color);
+    font-family: var(--main-font);
+}
+
+.header-main-row2-stars {
+    transform: translate(-2rem, -1.6rem);
+}
+
+.header-main-row3 {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    margin-bottom: -1.5rem;
+}
+
+.header-main-row3-cupon {
+    font-family: var(--second-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.header-main-row3-cupon-myq {
+    color: var(--main-color);
+    font-weight: 900;
+}
+
+.header-main-row4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-main-row4-div-stars {
+    width: 2.5rem;
+    transform: rotateZ(-30deg) translate(-1.2rem, .5rem);
+}
+
+.header-main-row4-thanks {
+    font-family: var(--second-font);
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--fourth-color);
+}
+
+.header-main-row5 {
+    transform: translateY(-1.2rem);
+}
+
+.header-main-row5-img {
+    width: 100%;
+}
+
+.header-main-row6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header-main-row6::before {
+    content: url(../img/butterflyr.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 2rem;
+}
+
+.header-main-row6-btns-btn {
+    width: 10rem;
+    padding: 1rem .8rem;
+    margin: .4rem;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    font-family: var(--second-font);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.header-main-row6-btns-btn:first-child {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.header-main-row6-btns-btn:last-child {
+    background-color: #fff;
+    color: var(--main-color);
+}
 
 /* BARRA DE NAVEGACION */
 
