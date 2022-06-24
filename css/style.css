@@ -1,5 +1,28 @@
+/* FONTS */
+@font-face {
+    font-family: Boldenvan;
+    src: url(/fonts/Boldenvan.ttf);
+}
+
+@font-face {
+    font-family: Asdonuts;
+    src: url(/fonts/Asdonuts.ttf);
+}
+
 /* ROOT */
 :root {
+    --main-color: rgb(255, 37, 153);
+    --second-color: rgb(189, 230, 255);
+    --third-color: rgb(250, 211, 224);
+    --fourth-color: rgb(255, 138, 176);
+    --fifth-color: rgb(229, 203, 255);
+    --menu-back: rgba(0, 0, 0, 0.5);
+    --main-Font: Boldenvan;
+    --second-Font: Asdonuts;
+}
+
+/* RESET */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
