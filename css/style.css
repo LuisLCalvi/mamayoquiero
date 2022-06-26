@@ -83,6 +83,7 @@ body {
     }
     
     .title--destac {
+        grid-area: "title";
         text-align: center;
         font-size: 30px;
         font-family: var(--main-Font);
@@ -90,14 +91,8 @@ body {
     }
 
     .img--destac{
-        display: flex;
-        flex-direction: column;
         position: relative;
-        width: 50%;
-        height: 70%;
-        padding: 10px;
-    
+    margin-left: 5%;
     }
-
 
 }
