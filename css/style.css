@@ -58,7 +58,8 @@
     --fifth-color: rgb(229, 203, 255);
     --menu-back: rgba(0, 0, 0, 0.5);
     --main-Font: Boldenvan;
-    --second-Font: Asdonuts;
+    --second-Font: Lato-Regular;
+    --third-Font: Lato-Bold;
 }
 
 /* RESET */
@@ -75,9 +76,27 @@ body {
 
 @media screen and (max-width: 480px) {
 
+    /* QUE DICEN DE NOSOTROS */
+
+    .card--recomendacion{
+        width: auto;
+    }
+
+    .button--coment{
+        font-family: var(--second-Font);
+        text-decoration: none;
+        color: white;
+        background-color: var(--main-color);
+        border-radius: 5px;
+        padding: 8px;
+        margin-left: 50%;
+    }
+
+
     /* DESTACADOS */
-    
+    g
     .destac{
+        margin-top: 5px;
         align-items: center;
         text-decoration: none;
 
@@ -96,6 +115,16 @@ body {
     margin-left: 5%;
     flex-wrap:nowrap
 }
+
+    .button--shop{
+    font-family: var(--second-Font);
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 60%;
+    }
 
 
     /* PREGUNTAS FRECUENTES */
@@ -116,7 +145,7 @@ body {
     
     .answer {
         font-size: 20px;
-        font-family: Lato-Regular;
+        font-family: var(--second-Font);
         text-align: left;
         
     }
@@ -127,7 +156,7 @@ body {
     
     summary {
         padding: 10px;
-        font-family: Lato-Bold;
+        font-family: var(--third-Font);
     }
 
 
@@ -148,7 +177,7 @@ footer {
 }
 
 .footer--subtitle{
-    font-family: Lato-Regular;
+    font-family: var(--second-Font);
 }
 .footer--img{
     width: 15%;
