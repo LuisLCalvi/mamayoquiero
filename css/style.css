@@ -132,4 +132,56 @@ body {
 
 
 
+/* SEGUINOS EN LAS REDES */
+footer {
+    margin: 0;
+    text-align: center;
+    width: auto;
+}
+
+.footer--title{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: var(--main-Font);
+    color: var(--main-color);
+}
+
+.footer--subtitle{
+    font-family: Lato-Regular;
+}
+.footer--img{
+    width: 15%;
+    height: 5%;
+    margin-top: -20%;
+    margin-right: 80%;
+}
+.footer--img2{
+    width: 15%;
+    height: 5%;
+    margin-left: 80%;
+}
+.footer--redes {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 10px;
+    
+
+}
+
+.footer--contact{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    width: auto;
+    justify-content: space-evenly;
+
+}
+
+.contacto--date{
+    padding: 10px;
+    vertical-align: middle;
+}
+
 }
