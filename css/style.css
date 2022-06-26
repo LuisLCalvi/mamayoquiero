@@ -80,6 +80,8 @@ body {
     .destac{
         border: 1px  black solid ;
         align-items: center;
+        text-decoration: none;
+
     }
     
     .title--destac {
@@ -91,8 +93,9 @@ body {
     }
 
     .img--destac{
-        position: relative;
+    position: relative;
     margin-left: 5%;
-    }
+    flex-wrap:nowrap
+}
 
 }
