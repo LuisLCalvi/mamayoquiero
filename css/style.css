@@ -78,7 +78,6 @@ body {
     /* DESTACADOS */
     
     .destac{
-        border: 1px  black solid ;
         align-items: center;
         text-decoration: none;
 
@@ -97,5 +96,40 @@ body {
     margin-left: 5%;
     flex-wrap:nowrap
 }
+
+
+    /* PREGUNTAS FRECUENTES */
+    .container--answer {
+        text-align: justify;
+        width: auto;
+        padding: 10px;
+    }
+    
+    
+    .title--answer {
+        font-size: 30px;
+        font-family: var(--main-Font);
+        color: var(--main-color);
+        text-align: left;
+    
+    }
+    
+    .answer {
+        font-size: 20px;
+        font-family: Lato-Regular;
+        text-align: left;
+        
+    }
+    
+    details {
+        padding: 5px;
+    }
+    
+    summary {
+        padding: 10px;
+        font-family: Lato-Bold;
+    }
+
+
 
 }
