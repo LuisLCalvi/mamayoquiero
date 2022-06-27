@@ -215,6 +215,10 @@ body {
         color: var(--main-color);
     }
 
+    .navbar{
+        font-family: var(--second-Font);
+    }
+
         /* QUIENES SOMOS */
 
     .subtitle-quienes-somos{
@@ -245,6 +249,10 @@ body {
 
     .card--recomendacion{
         width: auto;
+    }
+
+    .card--recomendacion-img{
+        width: 95%;
     }
 
     .button--coment{
