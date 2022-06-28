@@ -71,6 +71,7 @@
 
 body {
     background: linear-gradient(rgb(250, 211, 224), rgb(255, 255, 255));
+    width: auto;
     height: 100%;
 }
 
@@ -79,16 +80,17 @@ body {
     /* HEADER */
 
     .header-congratulations{
+        width:auto;
         height: 533px;
         background-color: var(--main-color);
         
     }
 
     .header-congratulations-title{
-        transform: translate(3rem, 10rem); 
         font-family: var(--second-Font);
         color:#fff;
         flex-wrap: nowrap;
+        text-align: center;
     }
 
     .header-congratulations-img{
@@ -106,46 +108,44 @@ body {
         0%{
             transform: rotate(15deg) scale(0.8);
             margin-left: 35%;
-            margin-top: 38%;
+            margin-top: 43%;
 
         }
         5%{
             transform: rotate(15deg) scale(0.9);
             margin-left: 35%;
-            margin-top: 38%;
+            margin-top: 43%;
 
 
         }
         10%{
             transform: rotate(15deg) scale(0.8);
             margin-left: 35%;
-            margin-top: 38%;
+            margin-top: 43%;
 
 
         }
         15%{
             transform: rotate(15deg) scale(1);
             margin-left: 35%;
-            margin-top: 38%;
+            margin-top: 43%;
 
 
         }
         50%{
             transform: rotate(15deg) scale(0.8);
             margin-left: 35%;
-            margin-top: 38%;
+            margin-top: 43%;
 
 
         }
         100%{
             transform: rotate(15deg) scale(0.8);
             margin-left: 35%;
-            margin-top: 38%;
+            margin-top: 43%;
 
         }
     }
-
-
 
 
     .header-main {
@@ -346,6 +346,7 @@ body {
 
     .card--recomendacion-img{
         width: 95%;
+        margin-bottom: 1rem;
     }
 
     .button--coment{
@@ -487,3 +488,4 @@ footer {
 }
 
 }
+
