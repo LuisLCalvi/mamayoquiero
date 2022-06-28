@@ -75,7 +75,7 @@ body {
     height: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 
     /* HEADER */
 
@@ -375,7 +375,6 @@ body {
     
     .title--destac {
         margin-top: 15px;
-        text-align: center;
         font-family: var(--main-Font);
         color: var(--main-color)
     }
