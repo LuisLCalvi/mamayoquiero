@@ -1,102 +1,280 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/avatar.png" type="image/x-icon">
     <title>MAMA YO QUIERO</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+<!-- HEADER -->
+
+
     <header>
 
-        <!-- BARRA DE NAVEGACIÓN -->
-        <nav>
+        <div class="header-congratulations">
 
-        </nav>
+        
+            <a href="#felicitaciones"><img src="./img/congratulations.png" alt="" class="header-congratulations-img" ></a>
+            
+                <h3 class="header-congratulations-title">Haz click para conocer tu regalo</h3>
+        </div>
+        
 
         <!-- DESCUENTO -->
-        <main>
-            <main class="header-main">
-                <div class="header-main-row1">
-                    <div class="header-main-row1-nav-lines">
-                        <div class="header-main-row1-nav-lines-nav-line"></div>
-                        <div class="header-main-row1-nav-lines-nav-line"></div>
-                        <div class="header-main-row1-nav-lines-nav-line"></div>
+        <main class="header-main">
+            <div class="header-main-row1">
+
+        <!-- BARRA DE NAVEGACIÓN -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" aria-current="page" href="https://www.mamayoquiero.com.ar/"><img src="./img/icon-shop.png" alt=""> Tienda Online</a>
+                                <a class="nav-link" href="https://www.mamayoquiero.com.ar/contacto/
+                                "><img src="./img/icon-phone.png" alt=""> Contacto</a>
+                                <a class="nav-link" href="#"><img src="./img/icon-cart.png" alt=""> Venta mayorista</a>
+                                <a class="nav-link" href="https://www.mamayoquiero.com.ar/como-comprar/
+                                "><img src="./img/icon-question.png" alt=""> ¿Cómo comprar?</a>
+                                <a class="nav-link" href="https://www.instagram.com/mamayoquiero.ar/?fbclid=IwAR17oaa_vO7j7CAdAwJJKLjcgzxRUDPUpAV4zxxPrykCS9s8FKPeSQEEM80"><img src="./img/icon-instagram.png" alt=""> Instagram</a>
+                                <a class="nav-link" href="https://www.facebook.com/Mama-Yo-Quiero-Moldes-de-Silicona-e-Insumos-257171107644876/?ref=page_internal"><img src="./img/icon-facebook.png" alt=""> Facebook</a>
+
+                            </div>
+                        </div>
                     </div>
-                    <img src="./img/title.png" alt="title">
+                </nav>
+
+                <img src="./img/title.png" alt="title">
+            </div>
+            <div class="header-main-row2">
+                <h1 class="header-main-row2-congrats" id="felicitaciones">¡Felicitaciones!</h1>
+                <img class="header-main-row2-stars" src="./img/stars.png" alt="stars">
+            </div>
+            <div class="header-main-row3">
+                <p class="header-main-row3-cupon">Te ganaste un 10% OFF para tu próxima compra usando el cupón <span
+                        class="header-main-row3-cupon-myq">MAMAYOQUIERO</span>
+                </p>
+                <div class="header-main-row3-img">
+                    <img src="./img/butterflyl.png" alt="butter">
                 </div>
-                <div class="header-main-row2">
-                    <h1 class="header-main-row2-congrats">¡Felicitaciones!</h1>
-                    <img class="header-main-row2-stars" src="./img/stars.png" alt="stars">
+            </div>
+            <div class="header-main-row4">
+                <div>
+                    <img class="header-main-row4-div-stars" src="./img/stars.png" alt="stars">
+                    <h2 class="header-main-row4-thanks">¡Gracias por elegirnos!</h2>
                 </div>
-                <div class="header-main-row3">
-                    <p class="header-main-row3-cupon">Te ganaste un 10% OFF para tu próxima compra usando el cupón <span
-                            class="header-main-row3-cupon-myq">MAMAYOQUIERO</span>
-                    </p>
-                    <div class="header-main-row3-img">
-                        <img src="./img/butterflyl.png" alt="butter">
-                    </div>
-                </div>
-                <div class="header-main-row4">
-                    <div>
-                        <img class="header-main-row4-div-stars" src="./img/stars.png" alt="stars">
-                        <h2 class="header-main-row4-thanks">¡Gracias por elegirnos!</h2>
-                    </div>
-                    <img class="header-main-row4-gift" src="./img/gift.png" alt="gift">
-                </div>
-                <div class="header-main-row5">
-                    <img class="header-main-row5-img" src="./img/doll.png" alt="doll">
-                </div>
-                <div class="header-main-row6">
-                    <button class="header-main-row6-btns-btn">Usar mi premio</button>
-                    <button class="header-main-row6-btns-btn">Ir a la tienda</button>
-                </div>
-            </main>
+                <img class="header-main-row4-gift" src="./img/gift.png" alt="gift">
+            </div>
+            <div class="header-main-row5">
+                <img class="header-main-row5-img" src="./img/doll.png" alt="doll">
+            </div>
+            <div class="header-main-row6">
+                <button class="header-main-row6-btns-btn">
+                    <a href="https://www.mamayoquiero.com.ar/productos/" class="header-main-row6-btns-btn-text">Usar mi premio</a>
+                </button>
+                <button class="header-main-row6-btns-btn">
+                    <a href="https://www.mamayoquiero.com.ar/" class="header-main-row6-btns-btn-text2">Ir a la tienda</a>
+                </button>
+            </div>
         </main>
     </header>
 
-    <!-- QUIENES SOMOS & QUE DICEN DE NOSOTROS -->
+
     <section>
+
+        <div class="container-cards">
+            <img src="./img/card-section.png" alt=""  class="container-cards-img">
+            <img src="./img/card-section2.png" alt="" class="container-cards-img">
+            <img src="./img/card-section3.png" alt="" class="container-cards-img">
+        </div>
+
+
 
         <!-- QUIENES SOMOS -->
         <article>
+            <h2 class="subtitle-quienes-somos">Quiénes somos</h2>
+            <p class="parrafo-quienes-somos">Somos un emprendimiento que provee <strong>insumos, herramientas y moldes de silicona</strong> para productos de pasteleria y porcelana fría en todo el país.</p>
+
+            <p class="parrafo2-quienes-somos"><strong>Nuestro objetivo es brindar soluciones</strong>  a personas que se desempeñen como reposteras, por placer o profesionalmente y que desarrollen actividades relacionadas a las manualidades con porcelana fría, <strong>acompañándolas en este maravilloso mundo</strong> del arte y la creatividad.</p>
 
         </article>
 
         <!-- QUE DICEN DE NOSOTROS -->
-        <article>
+        <article class="card--recomendacion">
+            <h2 class="subtitle-card-recomendacion">Qué dicen de nosotros </h2>
+
+            <img src="./img/card-recomendacion.jpeg" alt="" class="card--recomendacion-img">
+
+            <img src="./img/card-recomendacion2.jpeg" alt="" class="card--recomendacion-img">
+
+            <img src="./img/card-recomendacion3.jpeg" alt="" class="card--recomendacion-img">
+
+            <img src="./img/card-recomendacion4.jpeg" alt="" class="card--recomendacion-img">
 
         </article>
-    </section>
 
-    <!-- PREGUNTAS FRECUENTES -->
-    <section>
+        <div>
+            <a href="https://www.facebook.com/Mama-Yo-Quiero-Moldes-de-Silicona-e-Insumos-257171107644876/" class="button--coment">Ver mas comentarios</a>
+        </div>
 
     </section>
 
     <!-- DESTACADOS -->
-    <section>
+    <section class="destac">
+        <h2 class="title--destac">
+            Algunos Productos
+        </h2>
+
+            <img class="img--destac" src="./img/productdest2.png" alt="">
+
+            <img class="img--destac" src="./img/productdest.png" alt="">
+
+            <img class="img--destac" src="./img/productdest3.png" alt="">
+
+            <img class="img--destac" src="./img/productdest4.png" alt="">
+
+        <div>
+            <a href="https://www.mamayoquiero.com.ar/" class="button--shop">Ir a tienda</a>
+        </div>
 
     </section>
 
-    <!-- SEGUINOS EN LAS REDES -->
-    <footer>
+        <!-- PREGUNTAS FRECUENTES -->
+        <section class="container--answer">
 
-    </footer>
+            <h2 class="title--answer">Preguntas Frecuentes</h2>
+    
+            <div>
+    
+                <details class="answer">
+                    <summary>
+                        ¿Cómo puedo utilizar el cupón de descuento? 
+                    </summary>
+                    ¡Es muy simple! Antes de finalizar tu compra, encontrarás un sector para ingresar tu código. Luego de ingresarlo automáticamente se aplicará el descuento correspondiente.
+                </details>
+    
+                <details class="answer">
+                    <summary>
+                        ¿Hacen envíos? 
+                    </summary>
+    
+                    Si hacemos envios a todo el territorio Argentino y a casi todo el mundo.
+    
+    
+                </details>
+    
+                <details class="answer">
+                    <summary>
+                        ¿El envío es gratuito? ¿Cómo calculo el costo? 
+                    </summary>
+    
+                    Los envíos poseen un costo de acuerdo a las distancias, pudiendo calcular el valor del mismo desde nuestra tienda ingresando tu código postal. 
+    
+    
+                </details>
+    
+                <details class="answer">
+                    <summary>
+                        ¿Cuantó se demora un pedido en llegar?
+                    </summary>
+    
+                    Los plazos de entregas son variables según la fecha o época del año. Por eso siempre están especificados en la cabecera de nuestra tienda, en redes sociales y también al momento de concretar la compra.
+    
+    
+                </details>
+    
+                <details class="answer">
+                    <summary>
+                        ¿Qué medios de pago aceptan?
+                    </summary>
+    
+                    Aceptamos Pago Fácil, Rapi Pago, transferencia bancaria, efectivo y tarjetas de débito/crédito.
+    
+    
+                </details>
+    
+                <details class="answer">
+                    <summary>
+                        ¿Se pueden comprar productos en tienda presencial?
+                    </summary>
+    
+                    Actualmente no contamos con local al público, por el momento, nuestro canal de ventas es únicamente en la tienda online.
+    
+    
+                </details>
+    
+    
+    
+        </section>
+    
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-    <script src="./js/index.js"></script>
+    
+<!-- SEGUINOS EN LAS REDES -->
+<footer>
+
+
+    <div class="footer--title">
+        <h2>
+            ¡Seguinos en las redes!
+        </h2>
+
+        <img class="footer--img2" src="./img/estrellas.png" alt="">
+
+        <h5 class="footer--subtitle">Para estar al tanto de las novedades</h5>
+    </div>
+
+    <img class="footer--img" src="./img/mariposasizq.png" alt="">
+    <div class="footer--redes">
+
+
+
+        <a href="https://www.facebook.com/Mama-Yo-Quiero-Moldes-de-Silicona-e-Insumos-257171107644876/">
+            <img src="./img/iconofacebook.png" alt="">
+        </a>
+
+        <a href="https://www.instagram.com/mamayoquiero.ar/">
+            <img src="./img/iconoinstagram.png" alt="">
+        </a>
+
+
+    </div>
+
+
+    <img src="./img/imagenmamayoquiero.png" alt="">
+
+    <div class="footer--contact">
+
+        <a href="tel:5491165150133">
+            <img class="contacto__datos" src="./img/iconotelefono.png" />
+        </a>
+
+        <a href="mailto:hola@mamayoquiero.com.ar"><img class="contacto__datos" src="./img/icono mail.png" alt="">
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=541165150133">
+            <img class="contacto__datos" src="./img/iconowsp.png" />
+        </a>
+
+    </div>
+
+    <img src="./img/imagencontactos.png" alt="">
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
