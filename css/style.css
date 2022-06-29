@@ -77,27 +77,26 @@ body {
 
 @media screen and (max-width: 520px) {
 
-    /* HEADER */
 
-    .header-congratulations{
+    .congratulations{
 
         background-color: var(--main-color);
         height: 530px;
     }
 
-    .header-congratulations-title{
+    .congratulations-title{
         font-family: var(--second-Font);
         color:#fff;
         flex-wrap: nowrap;
         text-align: center;
     }
 
-    .header-congratulations-img{
+    .congratulations-img{
         position: relative;
         animation: pulsate 1s infinite;      
     }
-    .header-congratulations-img::before,
-    .header-congratulations-img::after{
+    .congratulations-img::before,
+    .congratulations-img::after{
         position: absolute;
         content: "";
         display: inline-block;    
@@ -145,6 +144,8 @@ body {
 
         }
     }
+
+        /* HEADER */
 
 
     .header-main {
