@@ -80,10 +80,9 @@ body {
     /* HEADER */
 
     .header-congratulations{
-        width:auto;
-        height: 570px;
+
         background-color: var(--main-color);
-        
+        height: 530px;
     }
 
     .header-congratulations-title{
