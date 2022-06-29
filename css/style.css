@@ -81,7 +81,7 @@ body {
 
     .header-congratulations{
         width:auto;
-        height: auto;
+        height: 700px;
         background-color: var(--main-color);
         
     }
