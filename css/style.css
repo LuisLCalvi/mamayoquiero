@@ -83,7 +83,7 @@ body {
         width:auto;
         height: 700px;
         background-color: var(--main-color);
-        position: absolute;
+        position: static;
         
     }
 
