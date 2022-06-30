@@ -150,6 +150,7 @@ body {
     .header-main {
         background: linear-gradient(to left, rgb(250, 211, 224), rgb(255, 255, 255));
         padding: 1.5rem;
+        margin-bottom: 4rem;
     }
 
     .header-main-row1 {
@@ -299,6 +300,7 @@ body {
         overscroll-behavior-x: contain;
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
+        margin-bottom: 4rem;
 
     }
 
@@ -317,17 +319,22 @@ body {
         font-family: var(--main-Font);
         color: var(--main-color);
         margin-bottom: 1rem;
+        margin-left: 1rem;
     }
 
     .parrafo-quienes-somos{
         font-family: var(--second-Font);
         margin-bottom: 1rem;
         text-align: justify;
+        margin-left: 1rem;
+        width: 28rem;
     }
     .parrafo2-quienes-somos{
         font-family: var(--second-Font);
         text-align: justify;
-        margin-bottom: 1rem;
+        margin-bottom: 4rem;
+        margin-left: 1rem;
+        width: 28rem;
     }
 
 
@@ -337,6 +344,7 @@ body {
         font-family: var(--main-Font);
         color: var(--main-color);
         margin-bottom: 1rem;
+        margin-left: 1rem;
     }
 
     .card--recomendacion{
@@ -345,7 +353,8 @@ body {
 
     .card--recomendacion-img{
         width: 95%;
-        margin-bottom: 1rem;
+        margin-bottom: 1.3rem;
+        margin-left: 1rem;
     }
 
     .button--coment{
@@ -366,22 +375,25 @@ body {
 
     /* DESTACADOS */
     .destac{
-        margin-top: 5px;
+        margin-top: 4rem;
         align-items: center;
         text-decoration: none;
+        margin-bottom: 4rem;
 
     }
     
     .title--destac {
         margin-top: 15px;
         font-family: var(--main-Font);
-        color: var(--main-color)
+        color: var(--main-color);
+        margin-left: 1rem;
     }
 
     .img--destac{
     position: relative;
     margin-left: 5%;
-    flex-wrap:nowrap
+    flex-wrap:nowrap;
+    margin-bottom: 1rem;
 }
 
     .button--shop{
@@ -405,6 +417,7 @@ body {
         text-align: justify;
         width: auto;
         padding: 10px;
+        margin-bottom: 4rem;
     }
     
     
@@ -412,6 +425,7 @@ body {
         font-family: var(--main-Font);
         color: var(--main-color);
         text-align: left;
+        margin-left: 1rem;
     
     }
     
