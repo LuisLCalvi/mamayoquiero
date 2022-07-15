@@ -401,7 +401,7 @@ body {
         width: 5rem;
         padding: .5rem .8rem;
         margin: .4rem;
-        margin-left: 13rem;
+        margin-left: 11rem;
         border: 1px solid var(--main-color);
         border-radius: 10px;
         font-family: var(--second-Font);
@@ -409,6 +409,7 @@ body {
         font-weight: 900;
         background-color: var(--main-color);
         color: #fff;
+
     }
 
 
